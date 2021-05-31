@@ -67,14 +67,14 @@ final_amount= "{:.2f}" .format(bill_per_person)
 print(f"Each person should pay: $ {final_amount}")
 
 # Output is
-Welcome to thetop calculator
-What was the total bill? $ 200
-What percent tip would you like to give? 10, 12, or 15? 10
-How many people to split the bill?4
-Each person should pay: $ 55.00
+# Welcome to thetop calculator
+# What was the total bill? $ 200
+# What percent tip would you like to give? 10, 12, or 15? 10
+# How many people to split the bill?4
+# Each person should pay: $ 55.00
 
 
-
+# This is the end of Day 2.
 
 
 
