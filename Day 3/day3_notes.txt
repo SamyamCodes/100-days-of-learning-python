@@ -1,0 +1,35 @@
+Conditional Statement.
+Syntax: (If/Else)
+if condition:
+   do this
+   else:
+   do this
+
+eg.
+water_level =50
+if water_level>80:
+  print("Drain Water")
+else:                             (# Here, else and if should be at same starting point.)
+  print("Continue")
+
+
+# Nested If- else condition
+if condition:
+  if another condition:
+    do this
+  else:
+    do this
+else:
+do this      
+
+# elif ==>> elise if. (you can add as many elif as you want.)
+
+eg:
+if condition1:
+  do this
+elif condition2:
+  do this
+elif condition3:
+  do this
+else:
+  do this.  
