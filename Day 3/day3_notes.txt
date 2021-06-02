@@ -25,6 +25,9 @@ do this
 
 # elif ==>> elise if. (you can add as many elif as you want.)
 
+else:  #You cannot write condition here.
+  print("Hello")
+
 eg:
 if condition1:
   do this
