@@ -37,3 +37,15 @@ elif condition3:
   do this
 else:
   do this.  
+
+  # Logical operators:
+  and
+  if a>b and b<c: #Use "and" as and operators
+  
+ #  not, or are also logical operators.
+
+# " Samyam".lower() >> tHis lowers the first letter as samyam which is lower function.
+# count function()
+#"Samyams".count("s")  >> output is 1. because it counts only lower case letters.
+# lower_case_name= "Samyams".lower()
+#lower_case_name.count("s")  >> output now is 2.
