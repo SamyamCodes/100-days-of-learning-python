@@ -1,0 +1,40 @@
+See on wikipedia page "Mersenne Twister"
+
+import random  >>>This is a module which we are importing to generate random number.
+It's important to use this module at first before using random.randint(1.10) to generate random numbers from 1 to 10, each time you run the program.
+
+
+code:
+
+import random
+random_integer= random.randint(1, 10)
+print(random_integer)  >>> Output: any random no. between 1 to 10
+
+What is module?
+>> It is different parts of a single something big part.
+You can just create a my_module.py file and code 
+pi=3.144445644
+
+Now in your mainfile main.py, if you use
+import my_module
+print(my_module.py)
+>> It prints 3.144445644 as output in your main.py file
+
+
+random_float= random.random()
+# This random.random() generates random number from [0,1) only in float.
+print(random_float)
+
+
+randomFloat= random.random()*5
+print(random_float) >>>> It prints random no. in float from 0.000000 to 4.999999999
+We can just multiply random.random() by any number if we want to increase its range.
+
+
+love_score= random.rand(1, 100)
+print(f"Your love scoe is {love_score}")
+>>> Generates random numbers from 1 t 100.
+
+
+
+
