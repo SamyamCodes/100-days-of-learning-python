@@ -37,4 +37,38 @@ print(f"Your love scoe is {love_score}")
 
 
 
+For data structures see https://docs.python.org/3/tutorial/datastructures.html
+
+List :
+always start with[ and end with] in between comma(,)
+eg:
+fruits =[item1, item2]
+fruits=["Cherry", "Apple", "Banana"]
+ 
+ https://www.askpython.com/python-modules/python-random-module-generate-random-numbers-sequences
+ https://www.askpython.com/python/string/convert-string-to-list-in-python
+
+Nested Lists
+fruits=["Strawberry", "Apple", "Mango", "Banana", "Cherry"]
+vegetables=["Spinach", "Potato","Garlic","Spinach", "Tomato"]
+dirty_dozes=[fruits, vegetables] >>>> This is nested list.
+
+
+my_list = [ [1,2,3], [4,5,6], [7,8,9] ]
+
+selected_list = my_list[3 - 1] # [7,8,9]
+selected_list[2-1] = "X" #[7, 8, 9] => [7, X, 9]
+
+
+print(my_list)
+
+
+
+
+
+
+
+
+ 
+
 
