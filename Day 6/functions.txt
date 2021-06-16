@@ -1,0 +1,208 @@
+# Functions
+def >> defining a Functions
+def my_function():
+   print("Hellio")
+   print("Bye")
+
+my_function()
+
+
+
+defining a Functions
+
+def(keywoard) name(): def is a  keywoard that is defining a function . name is namee of the functio followed by () parenthesis and ":", a colon
+
+   #Do this #>>> These parts are indented inside a function.
+
+   then do this
+   finally do this
+
+name()  >> Calling a function by using the name of the functiom we created.
+
+
+https://docs.python.org/3/library/functions.html
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Alone&url=worlds%2Ftutorial_en%2Falone.json
+
+
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%201&url=worlds%2Ftutorial_en%2Fhurdle1.json
+
+# This is the code using function:
+
+def turn_left():
+
+
+def  move():
+
+
+
+
+
+def turn_right ():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+    
+def jump():
+    move()
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+    
+for step in range(6): 
+    jump()
+    
+    
+  https://www.python.org/dev/peps/pep-0008/
+
+
+ while something_is_true:
+   #DO something
+   then do this
+   then do this
+   increment/decrement
+ 
+
+# In the program below, the end point is random and we have to stop at that point as  indicated by the program.
+  link is : https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%202&url=worlds%2Ftutorial_en%2Fhurdle2.json
+
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+def jump():
+    move()
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+    
+while not at_goal():  or while at_goal() != True:
+    jump()
+    
+
+
+# Use for loop when  you are iterating over something and you nedd to do something with each list that you are iterating over.
+ prints each number in the list using for loop.
+# setting ahead of time, how many times you want to run the program.
+# Has upper/lower bound and stops after some time.
+
+
+ # We use while loops when you dont really care
+  i) what number in the iteration you are in
+  ii) what item in the iteration you want to use
+   
+    III) you just simply want to carry out some sort of functaniolality many many times until some condition is met.
+ # 
+ While loop is dangerous as it can be used as a infinite loop if the condition is always true but never false.
+Because, while loops continue running until the condition becomes false.
+
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%203&url=worlds%2Ftutorial_en%2Fhurdle3.json
+
+Hers is the code for hurdle 3:
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+def jump():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+    
+while not at_goal():
+    if wall_in_front():
+        jump()
+    else:
+        move()
+        
+    
+
+
+
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%204&url=worlds%2Ftutorial_en%2Fhurdle4.json
+This is hurdle 4 and below is the code.
+
+
+
+ def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+def jump():
+    turn_left()
+    while wall_on_right():
+        move()
+    turn_right()
+    move()
+    turn_right()
+    while front_is_clear():
+        move()
+    turn_left()    
+
+    
+while not at_goal():
+    if wall_in_front():
+        jump()
+    else:
+        move()
+        
+ https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json
+
+ This is maze problem:
+ Here is the code,
+ def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+
+    
+while not at_goal():
+    if right_is_clear():
+        turn_right()
+        move()
+    elif front_is_clear():
+        move()
+    else:
+        turn_left()
+         
+        THe above program is still not working for all type of situations. There is a bug to be fixed at a particular condition. 
+        Come to DAy 6 video 9 for debugging the code again after you reach complete Day 15.
+        
+    
+    
+   
+            
+     
+   
+            
+    
+   
+            
+    
+
+
+   
+            
+       
+
+
+            
+
+    
