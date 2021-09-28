@@ -1,0 +1,23 @@
+In day 7, we are going to build a hangman game.
+
+At first go to the website draw.io to create a flowchart.
+a) Start
+b) Generate a random word
+c) Generate as  any blanks as lettters in word
+d) Ask the user to guess a lettter
+e) Is the guessed letter in the word?
+    Yes >> Relpace the blank with the letter.
+            Are all the blanks filled?
+            Yes >> Game Over
+            NO >> Go to step (d)
+    NO >> Lose a life.
+            Have they run out of lives?
+            Yes >> Game Over
+            No >> Go to step (d)
+ f) Stop.
+
+ https://developers.google.com/edu/python/lists#for-and-in
+ 
+            
+
+                
