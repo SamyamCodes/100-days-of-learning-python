@@ -1,0 +1,11 @@
+def my_function(something):
+   #Do this with something
+   #then do this
+   #Finally do this.
+
+ something = 123  
+ (parameter)    (argument)
+
+ The parameter is the name of the data that is passed in.
+ Argument is the actual value of the data.
+ 
