@@ -1,0 +1,9 @@
+def my_function(a,b,c):
+    .....
+    .....
+
+my_function(1,2,3)  # a = 1, b = 2, c = 3
+my_function(3,1,2)  >> a = 3, b = 1, c = 2
+
+
+my_function(b=2, c=3, a=1) # This is keyword  argument. The valuse are unchanged irrespective of the location of a,b and c.
